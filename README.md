@@ -1,5 +1,5 @@
-# Filmoteka - katalog filmów
+# Kalkulator
 
-### Aplikacja gr 5
+### Aplikacja gr 4
 
 Poprawiłem wyświetlanie kalkulatora
