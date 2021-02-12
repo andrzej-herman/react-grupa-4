@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-*  {
+* {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 .app {
   display: flex;
@@ -15,8 +14,7 @@
 
 .calc {
   width: 400px;
-  height: 500px;
+  height: 505px;
   background-color: lightskyblue;
-  max-width: 50%;
   border-radius: 7px;
 }
