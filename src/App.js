@@ -20,7 +20,7 @@ const App = () => {
       case "-":
         newResult -= right;
         break;
-      case "×":
+      case "*":
         newResult *= right;
         break;
       case "/":
@@ -124,8 +124,10 @@ const App = () => {
           value={display}
           expression={
             typeof pendingOperator !== "undefined"
-              ? `${result}${pendingOperator}${waitingForOperand ? "" : display}`
-              : ""
+              ? `${result}${pendingOperator}${
+                  waitingForOperand ? "=" : display
+                }`
+              : "="
           }
         />
         <NumericPad onButtonPressed={handleButtonClick} />
